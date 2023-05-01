@@ -20,7 +20,7 @@ const imageName = "Romero Family 2023";
 // Step 6: copy your image into the "images" folder
 
 // Step 7: place the value of the picture variable into the HTML file (hint: document.querySelector().setAttribute())
-document.querySelector("img").setAttribute("src", "./images/700948325001.jpg");
+document.querySelector("img").setAttribute("src", "/images/700948325001.jpg");
 
 /* ARRAYS */
 
@@ -39,6 +39,7 @@ favFoods.push(otherFavFood);
 // Step 5: repeat Step 2
 
 document.querySelector("#food").innerHTML = favFoods;
+
 // Step 6: remove the first element in the favorite foods array
 favFoods.shift(favFoods);
 
